@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Second table</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+<body>
+  <main class="main">
+    <nav>
+      <ul>
+        <li><a href="../index.html">Головна</a></li>
+        <li><a href="table1.html">Таблиця 1</a></li>
+      </ul>
+    </nav>
+    <table class="table-2">
+      <caption>Таблиця 2</caption>
+      <tr>
+        <td class="w40" colspan="2">1-2</td>
+        <td class="w60">3</td>
+      </tr>
+      <tr>
+        <td class="w28">4</td>
+        <td colspan="2" rowspan="2">
+          <table class="intable">
+            <caption>Внутрішня таблиця</caption>
+            <tr>
+              <td>1</td>
+              <td rowspan="3">2-5-8</td>
+              <td class="h200" rowspan="2">3-6</td>
+            </tr>
+            <tr>
+              <td class="h200" rowspan="2">4-7</td>
+            </tr>
+            <tr>
+              <td>9</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="w28">7</td>
+      </tr>
+    </table>
+  </main>
+
+</body>
+
+
+
+
+
+</html>
